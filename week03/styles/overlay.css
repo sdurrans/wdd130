@@ -26,13 +26,14 @@ h2 {
 }
 
 .stats {
-	bottom: 25px;
-	left: 15px;
+	top: 185px;
+	left: 100px;
 	background: radial-gradient(#eee, #4567aa);
 	border: 1px solid #000;
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #111;
 	opacity: 0.9;
+	position:absolute;
 }
 
 h3 {
@@ -43,7 +44,7 @@ h3 {
 
 footer {
 	position: fixed;
-	bottom: 0;
+	bottom: 0px;
 	margin: 1rem;
 	border-top: 1px solid #000;
 	padding: 0.5rem;
