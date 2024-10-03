@@ -31,7 +31,6 @@ body{
 .hero article img{
     width: 200px;
     float: right;
-    left: 75;
 }
 .hero article{
     position: absolute;
