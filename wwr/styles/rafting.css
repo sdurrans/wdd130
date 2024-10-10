@@ -2,10 +2,6 @@
     --heading-background-color: #416165;
     --boarders: #d45549;
     --header_title-color: #EDB6A3;
-
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
 }
 header{
     background-color: var(--heading-background-color);
