@@ -128,7 +128,7 @@ body{
 figcaption{
     background-color: #222;
     color: var(--header_title-color);
-    font: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     padding: 3px;
     text-align: center;
 }
