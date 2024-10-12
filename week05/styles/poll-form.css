@@ -1,10 +1,98 @@
 :root{
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400&display=swap" rel="stylesheet">
-}
-.prompt-regular {
     font-family: "Prompt", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.5em;
+    color: navy;
+}
+header{
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+h1{
+    margin: 1rem;
+    font-size: 2em;
+    text-decoration: underline;
+}
+form{
+    width: 800px;
+    margin: auto;
+    padding: 1rem;
+    border:1px solid yellow;
+    border-radius: 0.5rem;
+    background-color: green;
+}
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid yellow;
+    padding: 1rem;   
+}
+legend{
+    padding: .5rem;
+    font-size: 1.6em;
+    text-decoration: underline dashed;
+}
+label{
+    padding-right: 1rem;
+    text-align: right;
+}
+input, select, textarea{
+    padding: .6rem;
+}
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: 2rem;
+    font-size: 2em;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color:chartreuse;
+    background-color: blue;
+    border-top: 5px solid red;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin:.5rem 0;
+}
+.column2{
+    grid-template-columns: 1fr 2fr;
+
+}
+.column3{
+    text-align: right;
+    justify-content: right;
+}
+.column3 textarea{
+    grid-column: 2;
+    justify-content: right;
+}
