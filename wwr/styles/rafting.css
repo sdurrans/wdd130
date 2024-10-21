@@ -1,5 +1,5 @@
 :root{
-    --heading-background-color: #416165;
+    --heading-background-color: rgb(0, 122, 120);
     --boarders: #d45549;
     --header_title-color: #EDB6A3;
 }
@@ -31,7 +31,7 @@ header{
 main{
     width: auto;
     margin: 0 auto;
-    background-color: #416165;
+    background-color: var(--heading-background-color);
 }
 h2{
     color: var(--header_title-color);
@@ -59,18 +59,14 @@ body{
     width: 80%;
     color: black;
     margin: 20px;
-    background: rgba(160, 204, 218, 0.75);
+    background: rgba(0, 122, 120, 0.75);
     border: 1px solid var(--boarders);
 }
 .hero h1{
-    background: rgba(160, 204, 218, 0.75);
+    background: rgba(0, 122, 120, 0.75);
     position: absolute;
     top: 20px;
     color: black;
-}
-.stories{
-    text-align: center;
-
 }
 
 .history{
@@ -104,6 +100,8 @@ body{
     grid-row: 1;
     text-align: center;
 }
+.stories{
+    text-align: center;}
 .stories{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
@@ -145,4 +143,127 @@ footer p {
     flex: 1; 
     text-align: center; 
     margin: 0; 
+}
+
+
+
+.contact h1 {
+    position: inherit;
+    margin: 0 auto;
+    text-align: center;
+
+}
+iframe {
+    width: 100%;
+}
+
+form {
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .65rem;
+    margin:1rem;
+    border: none;
+    padding: .5rem;
+    text-align: left;
+}
+
+label {
+    text-align: left;
+}
+
+input, select, textarea {
+    padding: .5em;
+    font-size: 1.0rem;
+}
+
+textarea {
+    width: 650px;
+}
+
+input[type='checkbox'] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 0 auto;
+    background-color: var(--boarders);
+    color: black;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.1rem;
+    width: 450px
+}
+
+button:hover{
+    background-color: var(--header_title-color);
+}
+
+.employee {
+    display: grid;
+    justify-content: space-evenly;
+    padding: 2rem;
+    
+}
+.employee h2{
+    text-align: center;
+    grid-column: 1/6;
+    border: 5px black solid;
+    padding: 15px;
+}
+.employee img {
+    align-items: center;
+    width: auto
+
+}
+footer {
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    
+}
+
+li {
+    text-decoration: none;
+}
+
+footer img {
+    height: 60%;
+    
+}
+.contact{
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    font-family: "Roboto", sans-serif;
+}
+.contact h1{
+    color: var(--header_title-color);
+}
+.employees{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+.employees h2{
+    display: grid;
+    grid-column: 2;
+    text-align: center;
+}
+.employees figure{
+    display: grid;
+    grid-row: 2;
+    align-self: center;
+    text-decoration: none;   
 }
