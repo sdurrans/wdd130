@@ -204,10 +204,6 @@ button {
     width: 450px
 }
 
-button:hover{
-    background-color: var(--header_title-color);
-}
-
 .employee {
     display: grid;
     justify-content: space-evenly;
@@ -225,21 +221,7 @@ button:hover{
     width: auto
 
 }
-footer {
-    display: flex;
-    justify-content:center;
-    text-decoration: none;
-    
-}
 
-li {
-    text-decoration: none;
-}
-
-footer img {
-    height: 60%;
-    
-}
 .contact{
     text-align: center;
     display: grid;
@@ -266,4 +248,20 @@ footer img {
     grid-row: 2;
     align-self: center;
     text-decoration: none;   
+}
+
+footer {
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    
+}
+
+li {
+    text-decoration: none;
+}
+
+footer img {
+    height: 60%;
+    
 }
