@@ -1,7 +1,13 @@
 :root{
-    --heading-background-color: rgb(0, 122, 120);
-    --boarders: #d45549;
+    --heading-background-color: rgb(133, 186, 161);
+    --boarders: #cec075;
     --header_title-color: #EDB6A3;
+    --text-color: #08090a;
+    --accent-color: #716a5c;
+
+}
+main{
+    font-family: "Roboto", sans-serif;
 }
 header{
     background-color: var(--heading-background-color);
@@ -26,7 +32,7 @@ header{
 }
 .websitelinks a{
     text-decoration: none;
-    color: var(--header_title-color);
+    color: var(--text-color);
 }
 main{
     width: auto;
@@ -34,7 +40,7 @@ main{
     background-color: var(--heading-background-color);
 }
 h2{
-    color: var(--header_title-color);
+    color: var(--text-color);
     text-align: left;
 }
 body{
@@ -59,11 +65,11 @@ body{
     width: 80%;
     color: black;
     margin: 20px;
-    background: rgba(0, 122, 120, 0.75);
+    background: var(--heading-background-color);
     border: 1px solid var(--boarders);
 }
 .hero h1{
-    background: rgba(0, 122, 120, 0.75);
+    background: var(--heading-background-color);
     position: absolute;
     top: 20px;
     color: black;
@@ -91,7 +97,7 @@ body{
     grid-column: 2;
     grid-row: 1;
     align-items: center;
-    color: var(--header_title-color);
+    color: var(--text-color);
 }
 .history img{
     display: grid;
@@ -120,8 +126,8 @@ body{
     text-decoration: none;   
 }
 figcaption{
-    background-color: #222;
-    color: var(--header_title-color);
+    background-color: var(--boarders);
+    color: var(--text-color);
     font-family: "Roboto", sans-serif;
     padding: 3px;
     text-align: center;
@@ -160,7 +166,7 @@ iframe {
 form {
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid black;
+    border: 1px solid var(--boarders);
     border-radius: .5rem;
     display: grid;
 }
@@ -196,7 +202,7 @@ input[type='checkbox'] {
 button {
     margin: 0 auto;
     background-color: var(--boarders);
-    color: black;
+    color: var(--text-color);
     border: none;
     border-radius: .5rem;
     padding: .75rem;
@@ -213,7 +219,7 @@ button {
 .employee h2{
     text-align: center;
     grid-column: 1/6;
-    border: 5px black solid;
+    border: 5px var(--boarders);
     padding: 15px;
 }
 .employee img {
@@ -229,7 +235,7 @@ button {
     font-family: "Roboto", sans-serif;
 }
 .contact h1{
-    color: var(--header_title-color);
+    color: var(--text-color);
 }
 .employees{
     text-align: center;
