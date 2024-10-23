@@ -6,7 +6,7 @@
     --accent-color: #716a5c;
 
 }
-main{
+body{
     font-family: "Roboto", sans-serif;
 }
 header{
@@ -28,7 +28,6 @@ header{
     block-size: 10px;
     justify-content: space-around;
     border: var(--boarders);
-    
 }
 .websitelinks a{
     text-decoration: none;
@@ -270,4 +269,99 @@ li {
 footer img {
     height: 60%;
     
+}
+
+
+.home h1 {
+    position: inherit;
+    margin: 0 auto;
+    text-align: center;
+    padding: .5rem;
+}
+
+.home article {
+    position: absolute;
+    top: 425px;
+    width: 95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-weight: 1000;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.column_one {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.column_two {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.column_2 img {
+    height: auto;
+    max-width: 100%
+}
+
+
+
+.trips h1 {
+    position: inherit;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.column1 {
+    display: flex;
+    border: 5px solid var(--boarders);
+    border-bottom: none;
+
+}
+
+.tripA, .tripB, .tripC {
+    width: 33.33%;
+    box-sizing: border-box; 
+    padding: 15px; 
+    text-align: center;
+    font-weight: 400;
+}
+
+.tripA img, .tripB img, .tripC img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 5px solid var(--boarders);
+}
+
+th, td {
+    border: 2.5px solid var(--boarders);
+    text-align: center;
+    padding: .5rem;
+    font-size: 1.10rem;
+    font-weight: 400;
+}
+
+caption {
+    border-right: var(--boarders);
+    border-left: var(--boarders);
+    border-top: var(--boarders);
+    background-color: var(--boarders);
 }

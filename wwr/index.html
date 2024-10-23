@@ -1,52 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Whitewater Rafting home page</title>
-        <meta name="description" content="Stuart, wdd130, creating a rafting website for a college programming degree.">
-        <meta name="author" content="Stuart Durrant">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Titillium+Web:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/rafting.css">
-    </head>
-    <body>
-        <header class="logo">
-            <img src="images/rafting_logo.png" alt="Company Logo" width="200">
-            <nav class="websitelinks"> 
-                <a href="index.html">Index</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </header>
-        <main>
-            <div class="hero">
-                <img src="images/indexhero.jpg" alt="About Background" width="500">
-                <article>
-                    <p>Hello My name is Stuart Durrant and this is the first time i have coded in html. Im looking forward to learning more, I have always wanted to build my own website, Wix doenst count.</p>    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Home Page</title>
+    <meta name="description" content="Stuart, wdd130, creating a rafting website for a college programming degree.">
+    <meta name="author" content="Stuart Durrant">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Titillium+Web:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header class="logo">
+        <img src="images/rafting_logo.png" alt="Company Logo" width="200">
+        <nav class="websitelinks"> 
+            <a href="index.html">Index</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main class="home">
+        <h1>Whitewater Rafting</h1>
+        <div class="hero">
+            <article class="box">
+                <p>Come Ride Some Rapids With Us! Every Trip Is A New Trip! </p>
                 </article>
+            <img src="images/indexhero.jpg" alt="Canyon Rapids Rafting Background">
+        <fieldset>
+            <legend><h2>Sign Up For Our Newsletter</h2></legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail"> 
+            <label for="newsletter">Please subscribe me to your newsletter</label>
+            <input type="checkbox" id="newsletter" name="newsletter">   
+        </fieldset>
+        <div class="container">
+            <div class="column_one">
+                <img src="images/purpose.jpg" alt="fun group">
+                <h4>Our Purpose</h4>
+                <p>Escape to the wild waters of New York. Our goal is to make witewater rafting your next hobby. Find your reason to escape by rafting with us.</p>
             </div>
-            <aside>
-                <h2>New York</h2>
-                <img src="images/state.jpg" alt="New York" width="100">
-                <p> When people think of New York, they often think of the big city. Many people dont know that New York state is filled with small towns, villages and farmland. Apples are one of our main crops and are fun to pick your self in the fall. </p>
-            </aside>
+            <div class="column_two">
+                <img src="images/discount.jpg" alt="discount" width="400">
+                <h4>First Timers</h4>
+                <p>Get your booking fee waived by bringing us the ad you saw pointing you to our site! Bringing a large group? Groups of 10 or more recieve 15% off equipment rentals!  </p>
             </div>
-            <footer>
-                <p>&copy; 2024 🦅 Stuart Durrant 🦅 Whitewater Rafting</p>
-                <nav class="sociallinks">
-                    <a href="https://www.facebook.com/">
-                        <img src="images/facebook.png" alt="Facebook" width="50">
-                    </a>
-                    <a href="https://www.x.com">
-                        <img src="images/x_twitter.png" alt="X" width="50">
-                    </a>
-                    <a href="https://www.instagram.com">
-                        <img src="images/instagram.png" alt="instagram" width="50">
-                    </a>
-                </nav>
-            </footer>
-    </body>
+        </div>
+        <form action="https://sdurrans.github.io/wdd130/wwr/trips.html" method="get">
+            <button type="submit">Your Journy Starts On Our Trips Page!</button>
+        </form>
+    </main>
+<footer>
+    <p>&copy; 2024 🦅 Stuart Durrant 🦅 Whitewater Rafting</p>
+    <nav class="sociallinks">
+        <a href="https://www.facebook.com/">
+            <img src="images/facebook.png" alt="Facebook" width="50">
+        </a>
+        <a href="https://www.x.com">
+                <img src="images/x_twitter.png" alt="X" width="50">
+        </a>
+        <a href="https://www.instagram.com">
+            <img src="images/instagram.png" alt="instagram" width="50">
+        </a>
+    </nav>
+</footer>
+</body>
 </html>
