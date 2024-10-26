@@ -259,16 +259,19 @@ footer {
     display: flex;
     justify-content:center;
     text-decoration: none;
-    
 }
 
-li {
-    text-decoration: none;
-}
 
+.wireframe button {
+    width: 150px;
+    background-color: white;
+    border: none;
+}
+.wireframe form{
+    border: none;
+}
 footer img {
     height: 60%;
-    
 }
 
 
